@@ -1,3 +1,6 @@
+# workaround bug in rpm unpackaged subdir check
+%define _unpackaged_subdirs_terminate_build 0
+
 Name:    kfloppy
 Summary: Format floppy disks
 Version: 4.7.90
