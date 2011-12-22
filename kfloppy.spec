@@ -3,8 +3,8 @@
 
 Name:    kfloppy
 Summary: Format floppy disks
-Version: 4.7.90
-Release: 2
+Version: 4.7.95
+Release: 1
 Group: Graphical desktop/KDE
 License: LGPLv2
 URL:     http://utils.kde.org/projects/%name
