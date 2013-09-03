@@ -3,7 +3,7 @@
 
 Name:		kfloppy
 Summary:	Format floppy disks
-Version:	4.11.0
+Version:	4.11.1
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
@@ -34,6 +34,9 @@ format 3.5" and 5.25" floppy disks.
 %makeinstall_std -C build
 
 %changelog
+* Tue Sep 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.11.1-1
+- New version 4.11.1
+
 * Wed Aug 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.11.0-1
 - New version 4.11.0
 
