@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kfloppy-15.08.0.tar.xz: a195a7621dfbb79aab86b303eed37a5e5a262c61
+sources:
+  kfloppy-15.08.1.tar.xz: 6bbe5cb950f5881d7e3545c2216163d46fdc3c8c

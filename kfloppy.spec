@@ -3,8 +3,8 @@
 
 Name:		kfloppy
 Summary:	Format floppy disks
-Version:	15.08.0
-Release:	2
+Version:	15.08.1
+Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://utils.kde.org/projects/kfloppy
@@ -27,7 +27,7 @@ format 3.5" and 5.25" floppy disks.
 %setup -q
 
 %build
-%cmake_kde4
+%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6
 %make
 
 %install
