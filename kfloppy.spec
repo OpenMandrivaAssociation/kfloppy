@@ -3,12 +3,12 @@
 
 Name:		kfloppy
 Summary:	Format floppy disks
-Version:	15.12.3
-Release:	2
+Version:	16.04.0
+Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://utils.kde.org/projects/kfloppy
-Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs-devel
 
 %description
@@ -18,7 +18,7 @@ format 3.5" and 5.25" floppy disks.
 %files
 %{_kde_bindir}/kfloppy
 %{_kde_iconsdir}/*/*/apps/kfloppy.*
-%{_kde_applicationsdir}/KFloppy.desktop
+%{_datadir}/applications/org.kde.kfloppy.desktop
 %{_kde_docdir}/HTML/*/kfloppy
 
 #----------------------------------------------------------------------
