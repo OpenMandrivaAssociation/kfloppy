@@ -28,10 +28,10 @@ KFloppy is a utility that provides a straightforward graphical means to
 format 3.5" and 5.25" floppy disks.
 
 %files
-%{_kde_bindir}/kfloppy
-%{_kde_iconsdir}/*/*/apps/kfloppy.*
+%{_bindir}/kfloppy
+%{_datadir}/icons/*/*/apps/kfloppy.*
 %{_datadir}/applications/org.kde.kfloppy.desktop
-%{_kde_docdir}/HTML/*/kfloppy
+%{_docdir}/HTML/*/kfloppy
 
 #----------------------------------------------------------------------
 
