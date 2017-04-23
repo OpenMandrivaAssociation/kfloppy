@@ -3,7 +3,7 @@
 
 Name:		kfloppy
 Summary:	Format floppy disks
-Version:	17.03.80
+Version:	17.04.0
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
@@ -28,11 +28,10 @@ BuildRequires:	cmake(KF5XmlGui)
 KFloppy is a utility that provides a straightforward graphical means to
 format 3.5" and 5.25" floppy disks.
 
-%files
+%files -f kfloppy.lang
 %{_bindir}/kfloppy
 %{_datadir}/icons/*/*/apps/kfloppy.*
 %{_datadir}/applications/org.kde.kfloppy.desktop
-%{_docdir}/HTML/*/kfloppy
 %{_sysconfdir}/xdg/kfloppy.categories
 %{_datadir}/metainfo/org.kde.kfloppy.appdata.xml
 
@@ -47,3 +46,4 @@ format 3.5" and 5.25" floppy disks.
 
 %install
 %ninja_install -C build
+%find_lang kfloppy --with-html
