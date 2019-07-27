@@ -3,7 +3,7 @@
 
 Name:		kfloppy
 Summary:	Format floppy disks
-Version:	19.04.3
+Version:	19.07.80
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
@@ -32,7 +32,7 @@ format 3.5" and 5.25" floppy disks.
 %{_bindir}/kfloppy
 %{_datadir}/icons/*/*/apps/kfloppy.*
 %{_datadir}/applications/org.kde.kfloppy.desktop
-%{_sysconfdir}/xdg/kfloppy.categories
+%{_datadir}/qlogging-categories5/kfloppy.categories
 %{_datadir}/metainfo/org.kde.kfloppy.appdata.xml
 
 #----------------------------------------------------------------------
