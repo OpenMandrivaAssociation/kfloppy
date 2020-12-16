@@ -3,7 +3,7 @@
 
 Name:		kfloppy
 Summary:	Format floppy disks
-Version:	20.11.90
+Version:	20.12.0
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
