@@ -4,7 +4,7 @@
 Name:		kfloppy
 Summary:	Format floppy disks
 Version:	22.04.1
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://utils.kde.org/projects/kfloppy
