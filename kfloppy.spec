@@ -7,7 +7,7 @@ Version:	23.04.3
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
-URL:		http://utils.kde.org/projects/kfloppy
+URL:		https://utils.kde.org/projects/kfloppy
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake
